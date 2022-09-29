@@ -59,14 +59,57 @@ main{
     cursor: pointer;
 }
 .items{
-    background-color: green;
     width: 100%;
     height: 50%;
     padding-left: 12%;
+    margin-top: 3%;
+    padding-right: 12%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .meal{
-    background-color: red;
-    width: 50%;
-    height: 20%;
-
+    width: 550px;
+    height: 180px;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+.image{
+    background-color: aqua;
+    border-style: solid;
+    border-color: orangered;
+    width:40%;
+    height: 90%;
+}
+.info{
+    width: 58%;
+    margin-left: 3%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+.name{
+    width:100%;
+    height:15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    font-weight: 550;
+    /* align-items: center; */
+    border-bottom-style: dashed;
+    border-bottom-width: thin;
+}
+.price{
+    color:orangered
+}
+.details{
+    width: 100%;
+    height:82%;
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 1.5em;
+}
+

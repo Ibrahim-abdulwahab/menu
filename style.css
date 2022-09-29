@@ -116,3 +116,6 @@ main{
 .none{
     display: none;
 }
+div[visibility="false"]{
+        display: none;
+    }
